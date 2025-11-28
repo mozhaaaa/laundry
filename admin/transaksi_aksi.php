@@ -34,5 +34,4 @@ for($x=1; $x<=10; $x++){
     }
 }
 
-header("location:transaksi.php");
-?>
+echo "<script>alert('Data Tersimpan'); window.location.href='transaksi.php'</script>";?>
